@@ -1,0 +1,16 @@
+PODS:
+  - KBVideoPlayer (0.1.0)
+
+DEPENDENCIES:
+  - KBVideoPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  KBVideoPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KBVideoPlayer: 9f737a5df6b719963c5558379be59de8a60c78e1
+
+PODFILE CHECKSUM: a3fc0f63687f03347fa2b035b6a25fac01f56f63
+
+COCOAPODS: 1.1.1

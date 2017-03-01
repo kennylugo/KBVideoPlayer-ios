@@ -1,0 +1,22 @@
+{
+  "name": "KBVideoPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of KBVideoPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kennybatista/KBVideoPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kennybatista": "kennybatista7@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kennybatista/KBVideoPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KBVideoPlayer/Classes/**/*"
+}
