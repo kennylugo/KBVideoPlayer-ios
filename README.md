@@ -1,6 +1,6 @@
 # KBVideoPlayer
 
-```KBVideoPlayer``` is a simple iOS video player written entirely in Swift that is highly customizable through storyboards!```
+```KBVideoPlayer``` is a simple iOS video player written entirely in Swift that is highly customizable through storyboards!
 
 [![CI Status](http://img.shields.io/travis/kennybatista/KBVideoPlayer.svg?style=flat)](https://travis-ci.org/kennybatista/KBVideoPlayer)
 [![Version](https://img.shields.io/cocoapods/v/KBVideoPlayer.svg?style=flat)](http://cocoapods.org/pods/KBVideoPlayer)

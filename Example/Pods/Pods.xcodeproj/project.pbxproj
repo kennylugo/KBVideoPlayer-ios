@@ -44,14 +44,14 @@
 
 /* Begin PBXFileReference section */
 		01C27FD67B4F75F46CC8326919093F74 /* Pods-KBVideoPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KBVideoPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		04B0178AD060A652B3C4F667A727BA7D /* Pods_KBVideoPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KBVideoPlayer_Tests.framework; path = "Pods-KBVideoPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B0178AD060A652B3C4F667A727BA7D /* Pods_KBVideoPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBVideoPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D5FD68D6013BBE2C101941230A1F19 /* KBVideoPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KBVideoPlayer-prefix.pch"; sourceTree = "<group>"; };
-		1023A36113641BB539F680CD14A7D58B /* Play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "Play@2x.png"; sourceTree = "<group>"; };
-		142860892ABB3135EFEA7DEC4ED70F2F /* Backward.png */ = {isa = PBXFileReference; includeInIndex = 1; path = Backward.png; sourceTree = "<group>"; };
-		15A84C19F18D0CCDA24CA96065D68FA8 /* Backward@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "Backward@3x.png"; sourceTree = "<group>"; };
+		1023A36113641BB539F680CD14A7D58B /* Play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Play@2x.png"; sourceTree = "<group>"; };
+		142860892ABB3135EFEA7DEC4ED70F2F /* Backward.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Backward.png; sourceTree = "<group>"; };
+		15A84C19F18D0CCDA24CA96065D68FA8 /* Backward@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Backward@3x.png"; sourceTree = "<group>"; };
 		1DAD15DC67DE664119FEA3896C91A86F /* Pods-KBVideoPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KBVideoPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
 		20BE44CDF4365866E6189318BD6FA818 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21BF350B3567B97B345D865DED3230A3 /* Forward@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "Forward@3x.png"; sourceTree = "<group>"; };
+		21BF350B3567B97B345D865DED3230A3 /* Forward@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Forward@3x.png"; sourceTree = "<group>"; };
 		2A906DBB4F6E8BAF0FC0AEB2A254E62C /* Pods-KBVideoPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KBVideoPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2FCDBF93FEC89F2B10B131B1010050DB /* KBVideoPlayerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = KBVideoPlayerView.xib; sourceTree = "<group>"; };
 		3683E247671621A0DF8BE64B7A65A7E7 /* Pods-KBVideoPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KBVideoPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,33 +60,33 @@
 		4495BBA3EE7A272116616EDEE46B9F20 /* KBVideoPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KBVideoPlayer.xcconfig; sourceTree = "<group>"; };
 		4DBCD61C305CEB6280F6F83685443983 /* Pods-KBVideoPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KBVideoPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		51D9DCD3E1D9622922C12CEE9AFE2A51 /* Pods-KBVideoPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KBVideoPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5473482B4212B88806996C4DECF2371A /* Forward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "Forward@2x.png"; sourceTree = "<group>"; };
-		55C7543BA0CB51E26601C3E1DDF3693B /* Pause@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pause@3x.png"; sourceTree = "<group>"; };
-		6A2EDA23F87EA9FBEC0970D4DA89A6C7 /* Pause@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pause@2x.png"; sourceTree = "<group>"; };
+		5473482B4212B88806996C4DECF2371A /* Forward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Forward@2x.png"; sourceTree = "<group>"; };
+		55C7543BA0CB51E26601C3E1DDF3693B /* Pause@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Pause@3x.png"; sourceTree = "<group>"; };
+		6A2EDA23F87EA9FBEC0970D4DA89A6C7 /* Pause@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Pause@2x.png"; sourceTree = "<group>"; };
 		80A069D9E78790E0C3492A7FF10C7416 /* Pods-KBVideoPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KBVideoPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		83A58F662F7F20D40B5594494469C64A /* Pods-KBVideoPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KBVideoPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		840CCD5F4F85F28954B3609776C23048 /* Pods-KBVideoPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KBVideoPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8618D43555D75F05CEFAE70815D6A0CF /* Pods-KBVideoPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KBVideoPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		8618D43555D75F05CEFAE70815D6A0CF /* Pods-KBVideoPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KBVideoPlayer_Example.modulemap"; sourceTree = "<group>"; };
 		87923B82886153F275711F5932C2782D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91FBBC530B3883DF9FFBE0466B30CA53 /* Forward.png */ = {isa = PBXFileReference; includeInIndex = 1; path = Forward.png; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91FBBC530B3883DF9FFBE0466B30CA53 /* Forward.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Forward.png; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97D5EC6CBFB657264AD5ABA57CB402BE /* Pods-KBVideoPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KBVideoPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A998C5789480F4DB7196207CDBD07FFD /* Pause.png */ = {isa = PBXFileReference; includeInIndex = 1; path = Pause.png; sourceTree = "<group>"; };
+		A998C5789480F4DB7196207CDBD07FFD /* Pause.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
 		C2C83CD4130BA06B9388B2710E3A4151 /* Pods-KBVideoPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KBVideoPlayer_Example-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC4DA8652A228A14AA7E9964284255F0 /* Pods-KBVideoPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KBVideoPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CCDF8A3DDB76531E97B090352CBE627B /* KBVideoPlayerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KBVideoPlayerViewController.swift; sourceTree = "<group>"; };
-		D31484B5AB4BDF6828A0216A42F88BF1 /* Play.png */ = {isa = PBXFileReference; includeInIndex = 1; path = Play.png; sourceTree = "<group>"; };
-		D35FCB55F3A89268971F8494051EB8B6 /* KBVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KBVideoPlayer.framework; path = KBVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D52F044A743B6F587FABB482F6C03AEB /* Pods-KBVideoPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KBVideoPlayer_Tests.modulemap"; sourceTree = "<group>"; };
-		D553CFA397AC8F423297BE1676AE548B /* Pods_KBVideoPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KBVideoPlayer_Example.framework; path = "Pods-KBVideoPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31484B5AB4BDF6828A0216A42F88BF1 /* Play.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		D35FCB55F3A89268971F8494051EB8B6 /* KBVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52F044A743B6F587FABB482F6C03AEB /* Pods-KBVideoPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KBVideoPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		D553CFA397AC8F423297BE1676AE548B /* Pods_KBVideoPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBVideoPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB762E8977931A886FED3CBB1FED1C04 /* Pods-KBVideoPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KBVideoPlayer_Example-resources.sh"; sourceTree = "<group>"; };
 		DE31741F090AAF797C7E5D3032B5DB42 /* Pods-KBVideoPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KBVideoPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
-		DF74FFE494985DA45E932DE4FA3154D8 /* Play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "Play@3x.png"; sourceTree = "<group>"; };
-		ED1D44B0F0EA0CA1E7A5B3FE46EFD626 /* KBVideoPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KBVideoPlayer.modulemap; sourceTree = "<group>"; };
+		DF74FFE494985DA45E932DE4FA3154D8 /* Play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Play@3x.png"; sourceTree = "<group>"; };
+		ED1D44B0F0EA0CA1E7A5B3FE46EFD626 /* KBVideoPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KBVideoPlayer.modulemap; sourceTree = "<group>"; };
 		F9DA3DC5F67A303B6D8632E856A1D73D /* Pods-KBVideoPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KBVideoPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
 		FB7F18FFD5608967990BC02FEC142D41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC00A163025EEDF732D9D938BD8B8B4F /* Backward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "Backward@2x.png"; sourceTree = "<group>"; };
+		FC00A163025EEDF732D9D938BD8B8B4F /* Backward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Backward@2x.png"; sourceTree = "<group>"; };
 		FD57A04F01654533E7B6C77EDFBEF3D8 /* KBVideoPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KBVideoPlayer-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +132,25 @@
 			path = "Example/Pods/Target Support Files/KBVideoPlayer";
 			sourceTree = "<group>";
 		};
+		2523663A1E667E0B00BBB05D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				142860892ABB3135EFEA7DEC4ED70F2F /* Backward.png */,
+				FC00A163025EEDF732D9D938BD8B8B4F /* Backward@2x.png */,
+				15A84C19F18D0CCDA24CA96065D68FA8 /* Backward@3x.png */,
+				91FBBC530B3883DF9FFBE0466B30CA53 /* Forward.png */,
+				5473482B4212B88806996C4DECF2371A /* Forward@2x.png */,
+				21BF350B3567B97B345D865DED3230A3 /* Forward@3x.png */,
+				A998C5789480F4DB7196207CDBD07FFD /* Pause.png */,
+				6A2EDA23F87EA9FBEC0970D4DA89A6C7 /* Pause@2x.png */,
+				55C7543BA0CB51E26601C3E1DDF3693B /* Pause@3x.png */,
+				D31484B5AB4BDF6828A0216A42F88BF1 /* Play.png */,
+				1023A36113641BB539F680CD14A7D58B /* Play@2x.png */,
+				DF74FFE494985DA45E932DE4FA3154D8 /* Play@3x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		265388DA9D76D0742BEB8BF3123BB02C /* Pods-KBVideoPlayer_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +174,6 @@
 			children = (
 				EEEE459B44F87B3527E13F83FC2061F4 /* Classes */,
 			);
-			name = KBVideoPlayer;
 			path = KBVideoPlayer;
 			sourceTree = "<group>";
 		};
@@ -236,22 +254,10 @@
 		EEEE459B44F87B3527E13F83FC2061F4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				142860892ABB3135EFEA7DEC4ED70F2F /* Backward.png */,
-				FC00A163025EEDF732D9D938BD8B8B4F /* Backward@2x.png */,
-				15A84C19F18D0CCDA24CA96065D68FA8 /* Backward@3x.png */,
-				91FBBC530B3883DF9FFBE0466B30CA53 /* Forward.png */,
-				5473482B4212B88806996C4DECF2371A /* Forward@2x.png */,
-				21BF350B3567B97B345D865DED3230A3 /* Forward@3x.png */,
 				2FCDBF93FEC89F2B10B131B1010050DB /* KBVideoPlayerView.xib */,
 				CCDF8A3DDB76531E97B090352CBE627B /* KBVideoPlayerViewController.swift */,
-				A998C5789480F4DB7196207CDBD07FFD /* Pause.png */,
-				6A2EDA23F87EA9FBEC0970D4DA89A6C7 /* Pause@2x.png */,
-				55C7543BA0CB51E26601C3E1DDF3693B /* Pause@3x.png */,
-				D31484B5AB4BDF6828A0216A42F88BF1 /* Play.png */,
-				1023A36113641BB539F680CD14A7D58B /* Play@2x.png */,
-				DF74FFE494985DA45E932DE4FA3154D8 /* Play@3x.png */,
+				2523663A1E667E0B00BBB05D /* Images */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
