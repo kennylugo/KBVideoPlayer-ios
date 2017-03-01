@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KBVideoPlayer_Example' do
+  pod 'KBVideoPlayer', :path => '../'
+
+  target 'KBVideoPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
