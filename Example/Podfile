@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'KBVideoPlayer_Example' do
-  pod 'KBVideoPlayer', :path => '../'
+  pod 'KBVideoPlayer', :path => '/Users/kennybatista/Desktop/KBVideoPlayer'
 
   target 'KBVideoPlayer_Tests' do
     inherit! :search_paths
