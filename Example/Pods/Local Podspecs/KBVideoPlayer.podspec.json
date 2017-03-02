@@ -13,11 +13,11 @@
   },
   "source": {
     "git": "https://github.com/kennybatista/KBVideoPlayer-ios.git",
-    "tag": "1.1"
+    "tag": 1.1
   },
   "platforms": {
     "ios": "8.0"
   },
-  "resources": "KBVideoPlayer/Assets/*.{png}",
-  "source_files": "KBVideoPlayer/ClassesAndViews/*.{swift,xib}"
+  "resources": "KBVideoPlayer/Assets/**/*",
+  "source_files": "KBVideoPlayer/3/*.{swift,xib}"
 }
