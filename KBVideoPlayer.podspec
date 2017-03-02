@@ -30,8 +30,8 @@ TODO: KBVideoPlayer is a simple iOS video player written in Swift that is highly
 
   s.ios.deployment_target = '8.0'
 
-  s.resources = "KBVideoPlayer/Assets/*"
-  s.source_files = 'KBVideoPlayer/ClassesAndViews/*'
+  s.resources = "KBVideoPlayer/Assets/*.{png}"
+  s.source_files = 'KBVideoPlayer/ClassesAndViews/*.{swift,xib}'
 
 
 

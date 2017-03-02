@@ -1,5 +1,5 @@
 PODS:
-  - KBVideoPlayer (0.2)
+  - KBVideoPlayer (1.1)
 
 DEPENDENCIES:
   - KBVideoPlayer (from `/Users/kennybatista/Desktop/KBVideoPlayer`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "/Users/kennybatista/Desktop/KBVideoPlayer"
 
 SPEC CHECKSUMS:
-  KBVideoPlayer: d19882568b14ca239cda4878d4328aa1eaf36e2a
+  KBVideoPlayer: 0516c02d7aba0a7aed174e111ba7f8c94544c20a
 
 PODFILE CHECKSUM: a9438dcc6dd536485276072e0d481c74b69b9e28
 
