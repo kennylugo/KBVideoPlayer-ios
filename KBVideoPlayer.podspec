@@ -25,7 +25,7 @@ TODO: KBVideoPlayer is a simple iOS video player written in Swift that is highly
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kennybatista' => 'kennybatista7@gmail.com' }
-  s.source           = { :git => 'https://github.com/kennybatista/KBVideoPlayer-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kennybatista/KBVideoPlayer-ios.git', :tag => 1.1 }
   # s.social_media_url = 'https://twitter.com/kennybatista'
 
   s.ios.deployment_target = '8.0'
