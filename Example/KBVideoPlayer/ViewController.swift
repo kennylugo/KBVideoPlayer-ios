@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import KBVideoPlayer
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    
+    @IBAction func PlayVideo(_ sender: Any) {
+        let linkToVideo = URL(string: "https://goo.gl/qLRdBp")
+        let videoPlayer = KBVideoPlayerViewController(urlToPlayMediaFrom: linkToVideo!)
+        self.present(videoPlayer, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

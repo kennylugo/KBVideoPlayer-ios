@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KBVideoPlayer'
-  s.version          = '0.2'
+  s.version          = '1.1'
   s.summary          = 'Highly customizable video player written in Swift'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,10 @@ TODO: KBVideoPlayer is a simple iOS video player written in Swift that is highly
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'KBVideoPlayer/Classes/*'
-  
-  # s.resource_bundles = {
-  #   'KBVideoPlayer' => ['KBVideoPlayer/Assets/*.png']
-  # }
+  s.resources = "KBVideoPlayer/Assets/*"
+  s.source_files = 'KBVideoPlayer/ClassesAndViews/*'
+
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
