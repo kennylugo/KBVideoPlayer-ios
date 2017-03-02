@@ -1,6 +1,6 @@
 {
   "name": "KBVideoPlayer",
-  "version": "1.1",
+  "version": "1.2",
   "summary": "Highly customizable video player written in Swift",
   "description": "TODO: KBVideoPlayer is a simple iOS video player written in Swift that is highly customizable through storyboards!",
   "homepage": "https://github.com/kennybatista/KBVideoPlayer-ios",
@@ -13,11 +13,11 @@
   },
   "source": {
     "git": "https://github.com/kennybatista/KBVideoPlayer-ios.git",
-    "tag": 1.1
+    "tag": "1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "resources": "KBVideoPlayer/Assets/**/*",
-  "source_files": "KBVideoPlayer/3/*.{swift,xib}"
+  "resources": "KBVideoPlayer/Assets/*",
+  "source_files": "KBVideoPlayer/ClassesAndViews/*.{swift,xib}"
 }

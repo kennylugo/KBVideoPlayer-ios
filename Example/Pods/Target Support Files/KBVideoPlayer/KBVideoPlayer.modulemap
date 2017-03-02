@@ -1,0 +1,6 @@
+framework module KBVideoPlayer {
+  umbrella header "KBVideoPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -73,34 +73,6 @@ EOM
       ;;
   esac
 }
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "../../KBVideoPlayer/Assets/Backward.png"
-  install_resource "../../KBVideoPlayer/Assets/Backward@2x.png"
-  install_resource "../../KBVideoPlayer/Assets/Backward@3x.png"
-  install_resource "../../KBVideoPlayer/Assets/Forward.png"
-  install_resource "../../KBVideoPlayer/Assets/Forward@2x.png"
-  install_resource "../../KBVideoPlayer/Assets/Forward@3x.png"
-  install_resource "../../KBVideoPlayer/Assets/Pause.png"
-  install_resource "../../KBVideoPlayer/Assets/Pause@2x.png"
-  install_resource "../../KBVideoPlayer/Assets/Pause@3x.png"
-  install_resource "../../KBVideoPlayer/Assets/Play.png"
-  install_resource "../../KBVideoPlayer/Assets/Play@2x.png"
-  install_resource "../../KBVideoPlayer/Assets/Play@3x.png"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "../../KBVideoPlayer/Assets/Backward.png"
-  install_resource "../../KBVideoPlayer/Assets/Backward@2x.png"
-  install_resource "../../KBVideoPlayer/Assets/Backward@3x.png"
-  install_resource "../../KBVideoPlayer/Assets/Forward.png"
-  install_resource "../../KBVideoPlayer/Assets/Forward@2x.png"
-  install_resource "../../KBVideoPlayer/Assets/Forward@3x.png"
-  install_resource "../../KBVideoPlayer/Assets/Pause.png"
-  install_resource "../../KBVideoPlayer/Assets/Pause@2x.png"
-  install_resource "../../KBVideoPlayer/Assets/Pause@3x.png"
-  install_resource "../../KBVideoPlayer/Assets/Play.png"
-  install_resource "../../KBVideoPlayer/Assets/Play@2x.png"
-  install_resource "../../KBVideoPlayer/Assets/Play@3x.png"
-fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
