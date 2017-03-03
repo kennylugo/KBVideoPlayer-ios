@@ -9,23 +9,23 @@
 import UIKit
 import AVFoundation
 
-class KBVideoPlayerViewController: UIViewController {
+public class KBVideoPlayerViewController: UIViewController {
     
 //[Principium: Media playback properties]
     //url to get media from, media could either be on a remote server or locally
-    fileprivate var url: URL!
+    var url: URL!
     
     // On initialization, it will instantiate the url into an AV asset
-    fileprivate var asset: AVURLAsset!
+    var asset: AVURLAsset!
     
     // On initialization, it will convert the asset into a PlayerItem that can be passed to an AVPlayer for playback
-    fileprivate var item: AVPlayerItem!
+    var item: AVPlayerItem!
     
     // player, will playback media when specified
-    fileprivate var player: AVPlayer!
+    var player: AVPlayer!
     
     //player layer, used to modify attributes such as corner radius
-    fileprivate var playerLayer: AVPlayerLayer!
+    var playerLayer: AVPlayerLayer!
     
     // This view will contain the layer ( which displays the media ) that receives the output from the player
     @IBOutlet weak var videoProgressContainerView: UIView!
@@ -41,7 +41,7 @@ class KBVideoPlayerViewController: UIViewController {
     
 //[Principium: Time properties]
     // Will contain the media's playback remaining time
-    fileprivate var timeObserver: AnyObject!
+    var timeObserver: AnyObject!
 
     // Will display the remaining time when instantiated
     @IBOutlet weak var timeRemainingLabel: UILabel!
@@ -92,7 +92,7 @@ class KBVideoPlayerViewController: UIViewController {
     
  
     // Initialize objects
-    init(urlToPlayMediaFrom: URL){
+    public init(urlToPlayMediaFrom: URL){
         self.url = URL(string: String(describing: urlToPlayMediaFrom))
         self.asset = AVURLAsset(url: url)
         self.item = AVPlayerItem(asset: asset)
@@ -101,13 +101,13 @@ class KBVideoPlayerViewController: UIViewController {
         super.init(nibName: "KBVideoPlayerView", bundle: nil)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     
 //[Principium: Loading views method/properties]
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         //Run the load view method
         loadView()
@@ -133,7 +133,7 @@ class KBVideoPlayerViewController: UIViewController {
     
     
     
-    override func loadView() {
+    override public func loadView() {
         super.loadView()
         
         // This view will contain the playing video layer
@@ -170,7 +170,7 @@ class KBVideoPlayerViewController: UIViewController {
     
     
 //[Principium: Time obeserving/updating method/properties]
-    fileprivate func observeTime(elapsedTime: CMTime) {
+     func observeTime(elapsedTime: CMTime) {
         // Media duration
         let duration = CMTimeGetSeconds((player.currentItem?.duration)!)
         
@@ -185,7 +185,7 @@ class KBVideoPlayerViewController: UIViewController {
         
     }
     
-    fileprivate func updateTimeLabel(elapsedTime: Float64, duration: Float64) {
+     func updateTimeLabel(elapsedTime: Float64, duration: Float64) {
         //        let timeRemaining: Float64 = CMTimeGetSeconds(player.currentItem!.duration) - elapsedTime
         let currentTime = CMTimeGetSeconds((player.currentItem?.currentTime())!)
         timeRemainingLabel.text = String(format: "%02d:%02d", ((lround(currentTime) / 60) % 60), lround(currentTime) % 60)
@@ -194,11 +194,11 @@ class KBVideoPlayerViewController: UIViewController {
 //[Finis: Time obeserving/updating method/properties]
 
 //[Principium: Playback controls method/properties]
-    fileprivate func currentPlayBackTime() -> CMTime {
+     func currentPlayBackTime() -> CMTime {
         return (player.currentItem?.currentTime())!
     }
     
-    fileprivate func seekForward(){
+     func seekForward(){
         print(#function)
         
         let preSubtractedCurrentTime = CMTimeGetSeconds((player.currentItem?.currentTime())!)
@@ -207,7 +207,7 @@ class KBVideoPlayerViewController: UIViewController {
         self.player.seek(to: convertedSubtractedTime)
     }
     
-    fileprivate func seekBackward(){
+     func seekBackward(){
         print(#function)
         
         let preSubtractedCurrentTime = CMTimeGetSeconds((player.currentItem?.currentTime())!)
@@ -216,7 +216,7 @@ class KBVideoPlayerViewController: UIViewController {
         self.player.seek(to: convertedSubtractedTime)
     }
     
-    fileprivate func pauseOrPlay(){
+     func pauseOrPlay(){
         print(#function)
         if playPauseBool == false {
             playPauseBool = true

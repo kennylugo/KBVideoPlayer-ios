@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2524FFE71E68B2D1006FA9EA /* KBVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2524FFE61E68B2D1006FA9EA /* KBVideoPlayerViewController.swift */; };
-		2524FFE91E68B9E0006FA9EA /* KBVideoPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2524FFE81E68B9E0006FA9EA /* KBVideoPlayerView.xib */; };
 		4769BDC036AEE2B872FAFE33 /* Pods_KBVideoPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F9F43E8865DE4C8B4A9DA2 /* Pods_KBVideoPlayer_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -34,8 +32,6 @@
 		20CBE419F354D6601C58755C /* Pods_KBVideoPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBVideoPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D89A9C3D110807A212D192 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		233C9221C2C33FE634327915 /* Pods-KBVideoPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBVideoPlayer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBVideoPlayer_Tests/Pods-KBVideoPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2524FFE61E68B2D1006FA9EA /* KBVideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBVideoPlayerViewController.swift; sourceTree = "<group>"; };
-		2524FFE81E68B9E0006FA9EA /* KBVideoPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KBVideoPlayerView.xib; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KBVideoPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBVideoPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,15 +80,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2524FFEA1E68C02F006FA9EA /* Cocoapod files */ = {
-			isa = PBXGroup;
-			children = (
-				2524FFE61E68B2D1006FA9EA /* KBVideoPlayerViewController.swift */,
-				2524FFE81E68B9E0006FA9EA /* KBVideoPlayerView.xib */,
-			);
-			name = "Cocoapod files";
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +107,6 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				2524FFEA1E68C02F006FA9EA /* Cocoapod files */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -264,7 +250,6 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				2524FFE91E68B9E0006FA9EA /* KBVideoPlayerView.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,7 +361,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2524FFE71E68B2D1006FA9EA /* KBVideoPlayerViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

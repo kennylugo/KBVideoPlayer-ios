@@ -34,8 +34,6 @@ TODO: KBVideoPlayer is a simple iOS video player written in Swift that is highly
   s.source_files = 'KBVideoPlayer/ClassesAndViews/*.{swift,xib}'
 
 
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
