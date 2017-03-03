@@ -142,6 +142,11 @@ public class KBVideoPlayerViewController: UIViewController {
     public override func loadView() {
         super.loadView()
         
+        //set intial button images
+        backwardsButtonOutlet.setImage(UIImage(named: "Backward.png", in: Bundle(for: KBVideoPlayerViewController.self), compatibleWith: nil), for: .normal)
+        playOrPauseButtonOutlet.setImage(UIImage(named: "Pause.png", in: Bundle(for: KBVideoPlayerViewController.self), compatibleWith: nil), for: .normal)
+        forwardButtonOutlet.setImage(UIImage(named: "Forward.png", in: Bundle(for: KBVideoPlayerViewController.self), compatibleWith: nil), for: .normal)
+        
         // This view will contain the playing video layer
         VideoPlayerView.layer.addSublayer(playerLayer)
         // We make it's background color clear so that we only display
