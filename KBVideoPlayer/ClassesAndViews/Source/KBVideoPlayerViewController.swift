@@ -98,7 +98,13 @@ public class KBVideoPlayerViewController: UIViewController {
         self.item = AVPlayerItem(asset: asset)
         self.player = AVPlayer(playerItem: item)
         self.playerLayer = AVPlayerLayer(player: player)
-        super.init(nibName: "KBVideoPlayerView", bundle: nil)
+        
+        // We use the bundle to locate the file
+        let podBundle = Bundle(for: KBVideoPlayerViewController.self)
+        let bundleURL = podBundle.url(forResource: "KBVideoPlayer", withExtension: "bundle")
+        let bundle = Bundle(url: bundleURL!)!
+        
+        super.init(nibName: "KBVideoPlayerView", bundle: bundle)
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -107,7 +113,7 @@ public class KBVideoPlayerViewController: UIViewController {
     
     
 //[Principium: Loading views method/properties]
-    override public func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         //Run the load view method
         loadView()
@@ -133,7 +139,7 @@ public class KBVideoPlayerViewController: UIViewController {
     
     
     
-    override public func loadView() {
+    public override func loadView() {
         super.loadView()
         
         // This view will contain the playing video layer

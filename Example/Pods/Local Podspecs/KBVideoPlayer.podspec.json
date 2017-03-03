@@ -18,6 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
+  "source_files": "KBVideoPlayer/ClassesAndViews/Source/*.{swift}",
   "resources": "KBVideoPlayer/Assets/*",
-  "source_files": "KBVideoPlayer/ClassesAndViews/*.{swift,xib}"
+  "resource_bundles": {
+    "KBVideoPlayer": [
+      "KBVideoPlayer/ClassesAndViews/View/KBVideoPlayerView.xib"
+    ]
+  }
 }

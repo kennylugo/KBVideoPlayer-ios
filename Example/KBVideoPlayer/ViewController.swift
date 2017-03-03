@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import KBVideoPlayer
+import KBVideoPlayer 
 
 
 class ViewController: UIViewController {
@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         let linkToVideo = URL(string: "https://goo.gl/qLRdBp")
         let videoPlayer = KBVideoPlayerViewController(urlToPlayMediaFrom: linkToVideo!)
         self.present(videoPlayer, animated: true, completion: nil)
+       
     }
 
     override func didReceiveMemoryWarning() {
