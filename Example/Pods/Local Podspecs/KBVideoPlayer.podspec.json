@@ -15,6 +15,7 @@
     "git": "https://github.com/kennybatista/KBVideoPlayer-ios.git",
     "tag": "1.2"
   },
+  "social_media_url": "https://twitter.com/kennybatista",
   "platforms": {
     "ios": "8.0"
   },
